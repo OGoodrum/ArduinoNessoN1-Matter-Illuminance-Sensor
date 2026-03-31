@@ -7,14 +7,18 @@ The Arduino Nesso N1 (Figure 1) is built with an ESP32-C6 MCU, as well as a SX12
   <figure>
     <img src="nesso-n1-pinout.png" alt="Arduino Nesso N1 Pinout Description" width="90%"/>
     <br>
-    <figcaption>Figure 1. Arduino Nesso N1 Pinout Description</figcaption>
+    <b>
+      <figcaption>Figure 1. Arduino Nesso N1 Pinout Description</figcaption>
+    </b>
   </figure>
   <br>
   <br>
   <figure>
     <img src="bh1750-light-sensor-module.jpg" alt="BH1750 Light Sensor" width="40%"/>
     <br>
-    <figcaption>Figure 2. BH1750 Light Sensor</figcaption>
+    <b>
+      <figcaption>Figure 2. BH1750 Light Sensor</figcaption>
+    </b>
   </figure>
 </div>
 
