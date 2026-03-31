@@ -2,10 +2,20 @@
 
 ## Hardware Specifications
 
-The Arduino Nesso N1 (Figure 4) is built with an ESP32-C6 MCU, as well as a SX1262 LoRa Module [1]. Wifi, Thread, bluetooth, and LoRa are all integrated on the board, but to use LoRa the antenna must be attached to the board. Additionally, It has a touchscreen that can display output as well as take user touch inputs, which I used to display the state of the board. Additionally, I implemented some functionality that uses the yellow user button on the board. I also attached a BH1750 light/lux sensor (Figure 4) using the QWIIC connector on the board, this means that the board was communicating with the sensor using I2C [2]. There are also sensors on the device that I did not use such as the 6-axis Inertial Measurement unit that measures accelerometer data as well as gyroscope data.
+The Arduino Nesso N1 (Figure 1) is built with an ESP32-C6 MCU, as well as a SX1262 LoRa Module [1]. Wifi, Thread, bluetooth, and LoRa are all integrated on the board, but to use LoRa the antenna must be attached to the board. Additionally, It has a touchscreen that can display output as well as take user touch inputs, which I used to display the state of the board. Additionally, I implemented some functionality that uses the yellow user button on the board. I also attached a BH1750 light/lux sensor (Figure 2) using the QWIIC connector on the board, this means that the board was communicating with the sensor using I2C [2]. There are also sensors on the device that I did not use such as the 6-axis Inertial Measurement unit that measures accelerometer data as well as gyroscope data.
 <div align="center">
-  <img src="nesso-n1-pinout.png" alt="Arduino Nesso N1 Pinout Description" width="90%"/>
-  <img src="bh1750-light-sensor-module.jpg" alt="BH1750 Light Sensor" width="40%"/>
+  <figure>
+    <img src="nesso-n1-pinout.png" alt="Arduino Nesso N1 Pinout Description" width="90%"/>
+    <br>
+    <figcaption>Figure 1. Arduino Nesso N1 Pinout Description</figcaption>
+  </figure>
+  <br>
+  <br>
+  <figure>
+    <img src="bh1750-light-sensor-module.jpg" alt="BH1750 Light Sensor" width="40%"/>
+    <br>
+    <figcaption>Figure 2. BH1750 Light Sensor</figcaption>
+  </figure>
 </div>
 
 
