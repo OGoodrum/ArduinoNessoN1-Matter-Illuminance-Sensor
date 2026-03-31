@@ -44,6 +44,8 @@ Unfortunately, for the light sensor there is no implementation using the Arduino
 
 For the Nesso N1, I also added some functionality to the user button on the front of the device. In the loop for the program every five seconds the program polls the button to see if it has been pressed. If the button has been pressed then it decommissions the Matter device so that other devices can no longer see its endpoints and it forgets the Thread network. The Nesso N1 will then go back to the pairing state where it prints its commissioning credentials and it is ready to be commissioned. I did this so that the board will be in its original state and I can again test the commissioning of the board without having to do anything on my computer.
 
+In this project I added a sdkconfig.defaults file. In this file I defined the stack sizes for three different tasks and the values are handled by the software development kit. I increased the stack size, because before, my program was occasionally failing due to stack overflows. However, now there are no stack overflows.
+
 ### References
 
 [1]    Arduino, “Nesso N1 User Manual.” Accessed: Mar. 18, 2026. [Online]. Available: https://docs.arduino.cc/tutorials/nesso-n1/user-manual/#matter
